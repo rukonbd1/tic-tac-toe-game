@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Poppins&display=swap');
+
+*,:root{
+    padding: 0;
+    margin: 0;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+.cell{
+    font-size: 3rem;
+    text-align: center;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+}
